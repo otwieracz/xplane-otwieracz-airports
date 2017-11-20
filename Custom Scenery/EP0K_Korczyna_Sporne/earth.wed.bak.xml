@@ -16,9 +16,7 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection>
-                <sel id="11"/>
-            </selection>
+            <selection/>
         </object>
         <object class="WED_KeyObjects" id="3" parent_id="1">
             <sources/>
@@ -78,7 +76,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point latitude="49.725133336" longitude="21.775398153"/>
+            <point latitude="49.725494050" longitude="21.775400735"/>
             <texture_node s="0.0000" t="1.0000"/>
         </object>
         <object class="WED_OverlayImage" id="10" parent_id="4">
@@ -87,13 +85,14 @@
             <children>
                 <child id="5"/>
             </children>
-            <hierarchy hidden="0" locked="1" name="../../../../../../home/otwieracz/2017-11-20-131019_1916x1044_scrot.png"/>
+            <hierarchy hidden="0" locked="0" name="../../../../../../home/otwieracz/2017-11-20-131019_1916x1044_scrot.png"/>
             <overlay_image alpha="1.0" file_path="../../../../../../home/otwieracz/2017-11-20-131019_1916x1044_scrot.png"/>
         </object>
         <object class="WED_Airport" id="11" parent_id="4">
             <sources/>
             <viewers/>
             <children>
+                <child id="26"/>
                 <child id="21"/>
                 <child id="24"/>
                 <child id="18"/>
@@ -109,7 +108,7 @@
                 <child id="19"/>
                 <child id="20"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="01/19"/>
+            <hierarchy hidden="0" locked="0" name="02/20"/>
             <line width="26.00"/>
             <runway REIL1="None" REIL2="None" TDZL1="0" TDZL2="0" app_lites1="None" app_lites2="None" blastpad1="0.0" blastpad2="0.0" center_lites="0" displaced1="0.0" displaced2="0.0" distance_signs="0" edge_lites="None" markings1="None" markings2="None" roughness="0.00" shoulder="None" surface="Dirt"/>
         </object>
@@ -118,14 +117,14 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="49.720294618" longitude="21.783637161"/>
+            <point latitude="49.720500000" longitude="21.783685000"/>
         </object>
         <object class="WED_RunwayNode" id="20" parent_id="18">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="49.721742151" longitude="21.784433991"/>
+            <point latitude="49.721854000" longitude="21.784429000"/>
         </object>
         <object class="WED_Runway" id="21" parent_id="11">
             <sources/>
@@ -134,7 +133,7 @@
                 <child id="22"/>
                 <child id="23"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="11/29"/>
+            <hierarchy hidden="0" locked="0" name="12/30"/>
             <line width="15.00"/>
             <runway REIL1="None" REIL2="None" TDZL1="0" TDZL2="0" app_lites1="None" app_lites2="None" blastpad1="0.0" blastpad2="0.0" center_lites="0" displaced1="0.0" displaced2="0.0" distance_signs="0" edge_lites="None" markings1="None" markings2="None" roughness="0.00" shoulder="None" surface="Dirt"/>
         </object>
@@ -143,37 +142,45 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="49.721035595" longitude="21.782252123"/>
+            <point latitude="49.721229035" longitude="21.782259000"/>
         </object>
         <object class="WED_RunwayNode" id="23" parent_id="21">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="49.720330929" longitude="21.784882408"/>
+            <point latitude="49.720688000" longitude="21.783989000"/>
         </object>
         <object class="WED_ObjPlacement" id="24" parent_id="11">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="tree"/>
-            <point heading="0.00" latitude="49.720792167" longitude="21.783642117"/>
+            <point heading="0.00" latitude="49.720929906" longitude="21.783651615"/>
             <obj_placement custom_msl="0" msl="0.000" resource="opensceneryx/objects/vegetation/trees/1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_RampPosition" id="26" parent_id="11">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Przy krzaku"/>
+            <point heading="-255.51" latitude="49.721122999" longitude="21.783656557"/>
+            <ramp_start airlines="" ramp_op_type="None" traffic="8" type="Misc" width="A"/>
         </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed"/>
         <pref name="doc/export_target" value="3"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="21.790204"/>
-        <pref name="map/north" value="49.724881"/>
+        <pref name="map/east" value="21.845405"/>
+        <pref name="map/north" value="49.737197"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="4"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="49.719218"/>
+        <pref name="map/south" value="49.735006"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="21.781114"/>
+        <pref name="map/west" value="21.842147"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -201,10 +208,10 @@
         <pref name="map_Polygons_Resource" value="opensceneryx/polygons/surfaces/asphalt.pol"/>
         <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
-        <pref name="map_Ramp Start_Equipment Type" value=""/>
-        <pref name="map_Ramp Start_Ramp Operation Type" value="530"/>
+        <pref name="map_Ramp Start_Equipment Type" value="132"/>
+        <pref name="map_Ramp Start_Ramp Operation Type" value="531"/>
         <pref name="map_Ramp Start_Ramp Start Type" value="139"/>
-        <pref name="map_Ramp Start_Size" value="527"/>
+        <pref name="map_Ramp Start_Size" value="523"/>
         <pref name="map_Runway_Appch" value="51"/>
         <pref name="map_Runway_Center" value="1"/>
         <pref name="map_Runway_Dist" value="1"/>
@@ -247,9 +254,9 @@
         <pref name="map_Windsock_Lit" value="0"/>
         <pref name="window/height" value="1025"/>
         <pref name="window/main_split" value="454"/>
-        <pref name="window/main_split2" value="1574"/>
-        <pref name="window/prev_split" value="296"/>
-        <pref name="window/prop_split" value="522"/>
+        <pref name="window/main_split2" value="1499"/>
+        <pref name="window/prev_split" value="306"/>
+        <pref name="window/prop_split" value="656"/>
         <pref name="window/width" value="1916"/>
         <pref name="window/x_loc" value="1922"/>
         <pref name="window/y_loc" value="53"/>
